@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <title>Pizza</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Amatic+SC"
+  />
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Amatic SC", sans-serif;
+    }
+  </style>
+  <body>
+    <!-- Start Content -->
+    <div id="home" class="w3-content">
+      <!-- Navbar (Sits on top) -->
+      <div class="w3-top w3-bar w3-xlarge w3-black w3-opacity-min">
+        <a href="index.html" class="w3-bar-item w3-button">INICIO</a>
+        <a href="#cardapio" class="w3-bar-item w3-button">CARDÁPIO</a>
+        <a href="#sobre" class="w3-bar-item w3-button">SOBRE</a>
+        <a href="#contato" class="w3-bar-item w3-button">CONTATO</a>
+      </div>
+
+      <!-- Header image -->
+      <div
+        style="
+          height: 800px;
+          background-image: url('restaurante_home.jpg');
+          background-size: cover;
+        "
+        class="w3-display-container w3-grayscale-min"
+      >
+        <div class="w3-display-bottomleft">
+          <span class="w3-tag w3-xlarge"
+            >ABERTO DAS 10:00 DA MANHÃ A 0:00h</span
+          >
+        </div>
+        <div class="w3-display-middle w3-center">
+          <span class="w3-text-white" style="font-size: 100px"
+            >REI<br />DAS MASSAS</span
+          >
+          <p>
+            <a href="#cardapio" class="w3-button w3-xxlarge w3-black"
+              >DEIXE ME VER O CARDÁPIO</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <!-- End Content -->
+    </div>
+    <div id="cardapio" class="w3-container w3-black w3-xxlarge w3-padding-64">
+      <h1 class="w3-center w3-jumbo w3-padding-32">CARDÁPIO</h1>
+      <div class="w3-row w3-center w3-border w3-border-dark-grey">
+        <a href="#pizza"
+          ><div class="w3-third w3-padding-large w3-red">Pizza</div></a
+        >
+        <a href="#massas"
+          ><div class="w3-third w3-padding-large w3-hover-red">MASSAS</div></a
+        >
+        <a href="#aperitivos"
+          ><div class="w3-third w3-padding-large w3-hover-red">
+            APERITIVOS
+          </div></a
+        >
+      </div>
+
+      <div id="pizza" class="w3-container w3-white w3-padding-32">
+        <h1>
+          <b>Margherita</b>
+          <span class="w3-right w3-tag w3-dark-grey w3-round">$12.50</span>
+        </h1>
+        <p class="w3-text-grey">
+          tomates Frescos, mussarella Fresca, mangericão Frescos
+        </p>
+        <hr />
+
+        <h1>
+          <b>queijo</b>
+          <span class="w3-right w3-tag w3-dark-grey w3-round">$15.50</span>
+        </h1>
+        <p class="w3-text-grey">
+          quatro queijo (mussarella, parmesão, pecorino, jarlsberg)
+        </p>
+        <hr />
+
+        <h1>
+          <b>Meat Town</b> <span class="w3-tag w3-red w3-round">Hot!</span>
+          <span class="w3-right w3-tag w3-dark-grey w3-round">$20.00</span>
+        </h1>
+        <p class="w3-text-grey">
+          Frescos tomates, mussarella, pepporoni quente, salsicha quente,
+          carne,frngo
+        </p>
+      </div>
+
+      <h1 id="massas" class="w3-center w3-jumbo w3-padding-32">massas</h1>
+      <div class="w3-container w3-white w3-padding-32">
+        <h1>
+          <b>Lazanha</b> <span class="w3-tag w3-grey w3-round">Popular</span>
+          <span class="w3-right w3-tag w3-dark-grey w3-round">$13.50</span>
+        </h1>
+        <p class="w3-text-grey">
+          Special sauce, mussarella, parmesão, carne moída
+        </p>
+        <hr />
+
+        <h1>
+          <b>Ravioli</b>
+          <span class="w3-right w3-tag w3-dark-grey w3-round">$14.50</span>
+        </h1>
+        <p class="w3-text-grey">Ravioli recheado com queijo</p>
+        <hr />
+
+        <h1>
+          <b>Spaghetti Classica</b>
+          <span class="w3-right w3-tag w3-dark-grey w3-round">$11.00</span>
+        </h1>
+        <p class="w3-text-grey">Tomates frescos, cebolas, carne moída</p>
+      </div>
+
+      <h1 id="starters" class="w3-center w3-jumbo w3-padding-32">STARTERS</h1>
+      <div class="w3-container w3-white w3-padding-32">
+        <h1>
+          <b>A sopa de hoje</b>
+          <span class="w3-tag w3-grey w3-round">Estacional</span>
+          <span class="w3-right w3-tag w3-dark-grey w3-round">$5.50</span>
+        </h1>
+        <p class="w3-text-grey">Peça ao garçom</p>
+        <hr />
+
+        <h1>
+          <b>Bruschetta</b>
+          <span class="w3-right w3-tag w3-dark-grey w3-round">$8.50</span>
+        </h1>
+        <p class="w3-text-grey">Pão com pesto, tomates, cebola, alho</p>
+        <hr />
+
+        <h1>
+          <b>Pão de alho/b>
+          <span class="w3-right w3-tag w3-dark-grey w3-round">$9.50</span>
+        </h1>
+        <p class="w3-text-grey">
+          Ciabatta grelhada, manteiga de alho, cebolas/p>
+        </p>
+      </div>
+    </div>
+    <!-- About -->
+    <div
+      id="sobre"
+      class="w3-container w3-red w3-grayscale w3-xlarge w3-padding-64"
+    >
+      <h1 class="w3-center w3-jumbo">SOBRE</h1>
+
+      <p>
+        O Restaurante de Pizza foi fundado em blabla pelo Sr. Italiano em lorem
+        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.
+      </p>
+
+      <p>
+        <strong>The Chef?</strong> Mr. Italiano himself
+        <img
+          src="/w3images/chef.jpg"
+          style="width: 150px"
+          class="w3-circle w3-right"
+          alt="Chef"
+        />
+      </p>
+
+      <p>Estamos orgulhosos dos nossos interiores.</p>
+      <p class="w3-padding-16 w3-stretch">
+        <img src="img_restaurant.jpg" style="width: 100%" alt="Restaurant" />
+      </p>
+      <h1><b>Horário de Funcionamento</b></h1>
+
+      <div class="w3-row">
+        <div class="w3-half">
+          <p>Mon &amp; Tue CLOSED</p>
+          <p>Quarta-feira 10:00 - 24:00</p>
+          <p>Quinta-feira 10:00 - 24:00</p>
+        </div>
+        <div class="w3-half">
+          <p>Sexta-feira 10:00 - 12:00</p>
+          <p>Sábado 10:00 - 23:00</p>
+          <p>Domingo Fechado/p></p>
+        </div>
+      </div>
+    </div>
+    <!-- Contato -->
+<img id="imagem" src="map.jpg" class="w3-image w3-greyscale" alt="Map" style="width:100%">
+
+<div class="w3-container w3-blue-grey w3-grayscale-min w3-xlarge w3-padding-top-32">
+
+<h1 class="w3-center w3-jumbo" id="contato">CONTATO</h1>
+
+<p>Encontre-nos em algum [endereço] ou ligue para nós no TELEFONE OU ZAP (22)-999261138</p>
+<p>Oferecemos serviços completos de catering para qualquer evento, grande ou pequeno. Entendemos suas necessidades e vamos adaptar a comida para satisfazer o maior critério de todos, tanto a aparência quanto o sabor..</p>
+
+<p class="w3-xxlarge"><b>Reserve</b> uma mesa, pergunte pelo especial do dia ou simplesmente nos envie uma mensagem:</p>
+<form action="/action_page.php" target="_blank">
+
+<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nome" required name="Nome"></p>
+
+<p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="Quantas pessoas" required name="Pessoas"></p>
+
+<p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Data e hora" required name="data" value="2020-11-16T20:00"></p>
+
+<p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Menssagem\Requisitos especiais" required name="Message"></p>
+
+<p><button class="w3-button w3-light-grey w3-block" type="submit">ENVIAR MENSAGEM</button>
+  let nome=prompt("INFORME SEU NOME");
+  let pedir=("FAÇA SEU PEDIDO")
+  let mensagem=("FALE CONOSCO")
+</p>
+
+</form>
+
+<p class="w3-center w3-xlarge w3-padding-32">Desenvolvido por <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank">w3.css</a></p>
+
+</div>
+<script>
+    let nome=("INFORME SEU NOME");
+  let pedir=("FAÇA SEU PEDIDO")
+  let mensagem=("FALE CONOSCO")
+  </script>
+  </body>
+  
+</html>
